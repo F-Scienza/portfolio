@@ -4,7 +4,7 @@ import github from '../../assets/github.png';
 
 const Presentation = () => {
     return (
-        <div className='flex w-screen h-screen items-center justify-evenly bg-gradient-to-b from-neutral-700 to-gray-900'>
+        <div className='flex w-screen h-screen items-center justify-evenly'>
             <div className=" flex flex-col h-full w-72 bg-gray text-5xl font-light justify-evenly">
                 <span className="font-light">F-scz</span>
                 <span className="flex flex-col justify-center h-40 relative">
