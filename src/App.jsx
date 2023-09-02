@@ -1,10 +1,12 @@
 import Greeting from './Components/Greeting'
+import Navbar from './Components/Navbar'
 import Presentation from './Components/Presentation'
 
 function App() {
 
   return (
-    <div className="flex flex-col h-auto justify-center items-center bg-gradient-to-br from-slate-700 to-zinc-900">
+    <div className="relative flex flex-col h-auto justify-center items-center">
+      <Navbar/>
       <Presentation/>
       <Greeting/>
     </div>

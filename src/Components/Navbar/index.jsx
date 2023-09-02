@@ -1,0 +1,18 @@
+import Logo from '../Logo';
+
+const Navbar = () => {
+	return (
+		<nav className="w-full flex justify-evenly items-center pt-12 bg-gradient-to-t from-slate-900/10 to-gray-800">
+			<div className="flex justify-center w-72">
+				<Logo />
+			</div>
+			<ul className="flex w-72 justify-center gap-5 text-xl font-light">
+				<li className="font-bold text-cyan-400">About</li>
+				<li>Projects</li>
+				<li>Contact</li>
+			</ul>
+		</nav>
+	);
+};
+
+export default Navbar;
