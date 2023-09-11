@@ -1,7 +1,7 @@
 const Greeting = () => {
 	return (
-		<div className="flex w-screen pt-20 pb-20 items-center justify-evenly bg-slate-900/5 ">
-			<div className="h-96 w-1/2 max-w-xs ">
+		<div className="flex w-11/12 pt-8 pb-8 mb-20 items-center justify-evenly bg-slate-900/20 rounded-lg">
+			<div className="h-96 w-1/2 max-w-xs flex flex-col justify-center ">
 				<div className="w-1/3 border-t-2 border-cyan-500"></div>
 				<h1 className="text-2xl font-bold mb-2 tracking-widest">About me</h1>
 				<p>
@@ -13,7 +13,7 @@ const Greeting = () => {
 					through online resources such as YouTube
 				</p>
 			</div>
-			<div className="relative h-96 w-1/2 max-w-xs ">
+			<div className="relative h-96 w-1/2 max-w-xs flex flex-col justify-center ">
 				<p>
 					courses and official documentation. Later on, I enrolled in courses on
 					platforms like Platzi, Coderhouse, and Udemy, always complementing my
@@ -21,8 +21,7 @@ const Greeting = () => {
 					myself a great team player, driven by curiosity, and a dedicated
 					self-learner.
 				</p>
-
-				<div className="absolute right-0 flex items-center pt-4">
+				<div className="absolute right-0 flex items-center bottom-12">
 					<span className="text-6xl font-black text-cyan-500">28</span>
 					<div className="flex flex-col justify-start text-justify font-bold ml-2 border-b-2 border-cyan-500">
 						<span>Years</span>

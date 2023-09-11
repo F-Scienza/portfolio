@@ -16,27 +16,27 @@ import nextjslogo from '../../assets/nextjs.svg';
 
 const Tecnologies = () => {
 	return (
-		<div className="flex flex-col items-center w-11/12 ">
-			<div className="flex mb-12 gap-8">
-				<div className="h-36 w-36 bg-black/5 rounded-lg transition duration-300 ease-in-out ">
+		<div className="flex flex-col items-center w-11/12 mt-20 mb-20 ">
+			<div className=" flex mb-12 gap-8">
+				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={html5img} alt="html" />
 						<p>Html:5</p>
 					</span>
 				</div>
-				<div className="h-36 w-36 bg-black/5 rounded-lg transition duration-300 ease-in-out ">
-					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
-						<img className="w-32" src={jslogo} alt="js" />
-						<p>Javascript</p>
-					</span>
-				</div>
-				<div className="h-36 w-36 bg-black/5 rounded-lg transition duration-300 ease-in-out ">
+				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={css3} alt="css" />
 						<p>CSS</p>
 					</span>
 				</div>
-				<div className="h-36 w-36 bg-black/5 rounded-lg transition duration-300 ease-in-out ">
+				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
+					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
+						<img className="w-32" src={jslogo} alt="js" />
+						<p>Javascript</p>
+					</span>
+				</div>
+				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={reactlogo} alt="react" />
 						<p>React</p>

@@ -5,7 +5,7 @@ const Navbar = () => {
 		'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/10 via-slate-900/10 to-gray-800/0';
 	return (
 		<nav
-			className={`w-11/12 flex justify-evenly items-center pt-12 ${bg_gradient}`}
+			className={`w-screen flex justify-evenly items-center pt-12 ${bg_gradient}`}
 		>
 			<div className="flex justify-center w-72">
 				<Logo />
