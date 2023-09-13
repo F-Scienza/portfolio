@@ -2,6 +2,7 @@ import {
 	CheckCircleIcon,
 	HeartIcon,
 	ShoppingBagIcon,
+	ArrowUpRightIcon
 } from '@heroicons/react/24/outline';
 const Projects = () => {
 	
@@ -13,7 +14,14 @@ const Projects = () => {
 				<div className="flex items-start justify-center w-1/3 h-full pt-8">
 					<CheckCircleIcon className="w-12 text-cyan-500" />
 				</div>
-				<div>
+				<div className="flex flex-col">
+					<a
+						href="/"
+						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4"
+					>
+						{' '}
+						visit app <ArrowUpRightIcon className="w-3 pt-1" />
+					</a>
 					<span className="text-4xl font-semibold">ToDo List</span>
 					<p className="text-sm w-40 font-extralight">
 						This app is a tool that helps you organize and manage your daily
@@ -28,6 +36,13 @@ const Projects = () => {
 					<HeartIcon className="w-12 text-cyan-500" />
 				</div>
 				<div>
+					<a
+						href="/"
+						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4 "
+					>
+						{' '}
+						visit app <ArrowUpRightIcon className="w-3 pt-1" />
+					</a>
 					<span className="text-4xl font-semibold">Dogs app</span>
 					<p className="text-sm w-40 font-extralight">
 						This app allows you to choose your favorite dogs photos.
@@ -41,6 +56,13 @@ const Projects = () => {
 					<ShoppingBagIcon className="w-12 text-cyan-500" />
 				</div>
 				<div>
+					<a
+						href="/"
+						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4"
+					>
+						{' '}
+						visit app <ArrowUpRightIcon className="w-3 pt-1" />
+					</a>
 					<span className="text-4xl font-semibold">Ecommerce</span>
 					<p className="text-sm w-40 font-extralight">
 						An app for you to buy products from fakestore api.

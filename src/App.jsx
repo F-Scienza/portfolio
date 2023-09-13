@@ -1,3 +1,4 @@
+import Footer from './Components/Footer'
 import Greeting from './Components/Greeting'
 import Navbar from './Components/Navbar'
 import Presentation from './Components/Presentation'
@@ -13,6 +14,7 @@ function App() {
       <Greeting />
       <Tecnologies />
       <Projects />
+      <Footer/>
     </div>
   )
 }

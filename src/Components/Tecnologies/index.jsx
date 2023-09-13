@@ -16,7 +16,11 @@ import nextjslogo from '../../assets/nextjs.svg';
 
 const Tecnologies = () => {
 	return (
-		<div className="flex flex-col items-center w-11/12 mt-20 mb-20 ">
+		<div className="flex flex-col items-center w-11/12 mt-16 ">
+			<span className="border-t-2 border-cyan-500 w-48 h-4"></span>
+			<span className="text-4xl font-semibold mb-8 tracking-widest ">
+				My knowledge
+			</span>
 			<div className=" flex mb-12 gap-8">
 				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
