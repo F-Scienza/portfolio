@@ -16,38 +16,38 @@ import nextjslogo from '../../assets/nextjs.svg';
 
 const Tecnologies = () => {
 	return (
-		<div className="flex flex-col items-center w-11/12 mt-16 ">
+		<div className="flex flex-col items-center w-screen  md:w-11/12 md:mt-16 ">
 			<span className="border-t-2 border-cyan-500 w-48 h-4"></span>
-			<span className="text-4xl font-semibold mb-8 tracking-widest ">
+			<span className="text-2xl md:text-4xl font-semibold mb-8 tracking-widest ">
 				My knowledge
 			</span>
-			<div className=" flex mb-12 gap-8">
-				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
+			<div className="flex flex-wrap justify-center mb-16 gap-8">
+				<div className="h-24 w-24 md:h-36 md:w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={html5img} alt="html" />
 						<p>Html:5</p>
 					</span>
 				</div>
-				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
+				<div className="h-24 w-24 md:h-36 md:w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={css3} alt="css" />
 						<p>CSS</p>
 					</span>
 				</div>
-				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
+				<div className="h-24 w-24 md:h-36 md:w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={jslogo} alt="js" />
 						<p>Javascript</p>
 					</span>
 				</div>
-				<div className="h-36 w-36 rounded-lg transition duration-300 ease-in-out ">
+				<div className="h-24 w-24 md:h-36 md:w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={reactlogo} alt="react" />
 						<p>React</p>
 					</span>
 				</div>
 			</div>
-			<div className="flex w-1/2 gap-8 justify-center">
+			<div className="flex flex-wrap md:w-1/2 gap-8 justify-center">
 				<div>
 					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className=" w-8 mb-2" src={gitlogo} alt="react" />
