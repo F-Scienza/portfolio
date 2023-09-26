@@ -1,6 +1,8 @@
 const Greeting = () => {
 	return (
-		<div className="flex flex-col w-screen p-8 pt-8 pb-8 mb-20 items-center justify-evenly bg-slate-900/20 rounded-lg md:w-11/12 md:flex-row">
+		<div
+			className="flex flex-col w-screen p-8 pt-8 pb-8 mb-12 items-center justify-evenly bg-slate-900/20 rounded-lg md:w-11/12 md:flex-row"
+		>
 			<div className="h-96 md:w-1/2 max-w-xs flex flex-col justify-end md:justify-center ">
 				<div className="w-1/3 border-t-2 border-cyan-500"></div>
 				<h1 className="text-2xl font-bold mb-2 tracking-widest">About me</h1>

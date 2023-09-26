@@ -16,7 +16,10 @@ import nextjslogo from '../../assets/nextjs.svg';
 
 const Tecnologies = () => {
 	return (
-		<div className="flex flex-col items-center w-screen  md:w-11/12 md:mt-16 ">
+		<div
+			id={'Tecnologies'}
+			className="flex flex-col items-center w-screen md:pb-20 md:w-11/12 md:pt-20 "
+		>
 			<span className="border-t-2 border-cyan-500 w-48 h-4"></span>
 			<span className="text-2xl md:text-4xl font-semibold mb-8 tracking-widest ">
 				My knowledge
@@ -47,7 +50,7 @@ const Tecnologies = () => {
 					</span>
 				</div>
 			</div>
-			<div className="flex flex-wrap md:w-1/2 gap-8 justify-center">
+			<div className="flex flex-wrap lg:flex-nowrap md:w-1/2 gap-8 justify-center">
 				<div>
 					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className=" w-8 mb-2" src={gitlogo} alt="react" />

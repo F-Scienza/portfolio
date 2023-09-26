@@ -3,7 +3,10 @@ import github from '../../assets/github.svg';
 
 const Presentation = () => {
 	return (
-		<div className="flex flex-col w-screen mt-20 pb-8 items-center justify-evenly bg-slate-900/20 rounded-lg md:w-11/12 md:flex-row">
+		<div
+			id={'About'}
+			className="flex flex-col w-screen mt-20 pb-8 items-center justify-evenly bg-slate-900/20 rounded-lg md:w-11/12 md:flex-row"
+		>
 			<div className="flex flex-col h-96 w-72 bg-gray text-5xl font-light justify-evenly">
 				<span className="flex flex-col justify-center h-40 relative text-right">
 					<h1 className="font-semibold">FACUNDO</h1>
