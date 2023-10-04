@@ -4,6 +4,7 @@ import {
 	ShoppingBagIcon,
 	ArrowUpRightIcon
 } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 const Projects = () => {
 	
 	return (
@@ -18,13 +19,15 @@ const Projects = () => {
 					<CheckCircleIcon className="w-12 text-cyan-500" />
 				</div>
 				<div className="flex flex-col">
-					<a
-						href="/"
+					<Link
+						to="https://f-scienza.github.io/ReactToDo/"
+						target="_blank"
+						rel="noopener noreferrer"
 						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4"
 					>
 						{' '}
 						visit app <ArrowUpRightIcon className="w-3 pt-1" />
-					</a>
+					</Link>
 					<span className="text-2xl md:text-4xl font-semibold">ToDo List</span>
 					<p className="text-sm w-40 font-extralight">
 						This app is a tool that helps you organize and manage your daily
@@ -39,13 +42,15 @@ const Projects = () => {
 					<HeartIcon className="w-12 text-cyan-500" />
 				</div>
 				<div>
-					<a
-						href="/"
+					<Link
+						to="https://f-scienza.github.io/dogsapi/"
+						target="_blank"
+						rel="noopener noreferrer"
 						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4 "
 					>
 						{' '}
 						visit app <ArrowUpRightIcon className="w-3 pt-1" />
-					</a>
+					</Link>
 					<span className="text-2xl md:text-4xl  font-semibold">Dogs app</span>
 					<p className="text-sm w-40 font-extralight">
 						This app allows you to choose your favorite dogs photos.
@@ -59,13 +64,15 @@ const Projects = () => {
 					<ShoppingBagIcon className="w-12 text-cyan-500" />
 				</div>
 				<div>
-					<a
-						href="/"
+					<Link
+						to="https://f-scienza.github.io/react-teff/"
+						target="_blank"
+						rel="noopener noreferrer"
 						className="flex text-center text-sm font-light tracking-widest underline text-cyan-500 underline-offset-4"
 					>
 						{' '}
 						visit app <ArrowUpRightIcon className="w-3 pt-1" />
-					</a>
+					</Link>
 					<span className="text-2xl md:text-4xl  font-semibold">Ecommerce</span>
 					<p className="text-sm w-40 font-extralight">
 						An app for you to buy products from fakestore api.

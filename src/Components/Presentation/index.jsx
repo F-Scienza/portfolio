@@ -1,6 +1,6 @@
 import linkedin from '../../assets/linkedin.svg';
 import github from '../../assets/github.svg';
-
+import Link from 'react-router-dom';
 const Presentation = () => {
 	return (
 		<div
@@ -15,8 +15,20 @@ const Presentation = () => {
 				<div className="flex md:flex-col justify-center items-center">
 					<h4 className="text-sm font-light opacity-60 mr-2">Redes: </h4>
 					<span className="flex gap-2">
-						<img className="w-7" src={linkedin} alt="in" />
-						<img className="w-7" src={github} alt="in" />
+						<Link
+							to="https://www.linkedin.com/in/facundo-scienza/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img className="w-7" src={linkedin} alt="in" />
+						</Link>
+						<Link
+							to="https://github.com/F-Scienza"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img className="w-7" src={github} alt="in" />
+						</Link>
 					</span>
 				</div>
 			</div>

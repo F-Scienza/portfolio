@@ -1,7 +1,7 @@
 import Logo from '../Logo';
 import linkedin from '../../assets/linkedin.svg';
 import github from '../../assets/github.svg';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
 	const bg_gradient =
 		'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-cyan-500/5 via-slate-900/10 to-gray-800/0';
@@ -18,8 +18,20 @@ const Footer = () => {
 				</p>
 			</div>
 			<div className="flex gap-8">
-				<img className="w-7" src={linkedin} alt="in" />
-				<img className="w-7" src={github} alt="github" />
+				<Link
+					to="https://github.com/F-Scienza"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img className="w-7" src={linkedin} alt="in" />
+				</Link>
+				<Link
+					to="https://github.com/F-Scienza"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img className="w-7" src={github} alt="github" />
+				</Link>
 			</div>
 		</div>
 	);
