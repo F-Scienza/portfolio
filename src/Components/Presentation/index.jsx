@@ -1,6 +1,6 @@
 import linkedin from '../../assets/linkedin.svg';
 import github from '../../assets/github.svg';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 const Presentation = () => {
 	return (
 		<div
