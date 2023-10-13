@@ -18,20 +18,20 @@ const Footer = () => {
 				</p>
 			</div>
 			<div className="flex gap-8">
-				<Link
-					to="https://github.com/F-Scienza"
+				<a
+					href="https://github.com/F-Scienza"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<img className="w-7" src={linkedin} alt="in" />
-				</Link>
-				<Link
-					to="https://github.com/F-Scienza"
+				</a>
+				<a
+					href="https://github.com/F-Scienza"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<img className="w-7" src={github} alt="github" />
-				</Link>
+				</a>
 			</div>
 		</div>
 	);

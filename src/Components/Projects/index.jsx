@@ -2,10 +2,9 @@ import {
 	CheckCircleIcon,
 	HeartIcon,
 	ShoppingBagIcon,
-	ArrowUpRightIcon
+	ArrowUpRightIcon,
 } from '@heroicons/react/24/outline';
 const Projects = () => {
-	
 	return (
 		<div
 			id="Projects"

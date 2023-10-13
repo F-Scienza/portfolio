@@ -15,20 +15,20 @@ const Presentation = () => {
 				<div className="flex md:flex-col justify-center items-center">
 					<h4 className="text-sm font-light opacity-60 mr-2">Redes: </h4>
 					<span className="flex gap-2">
-						<Link
-							to="https://www.linkedin.com/in/facundo-scienza/"
+						<a
+							href="https://www.linkedin.com/in/facundo-scienza/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img className="w-7" src={linkedin} alt="in" />
-						</Link>
-						<Link
-							to="https://github.com/F-Scienza"
+						</a>
+						<a
+							href="https://github.com/F-Scienza"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<img className="w-7" src={github} alt="in" />
-						</Link>
+						</a>
 					</span>
 				</div>
 			</div>
