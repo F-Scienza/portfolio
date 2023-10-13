@@ -13,7 +13,7 @@ const Presentation = () => {
 					<h1 className="text-4xl absolute top-7 tracking-widest">SCIENZA</h1>
 				</span>
 				<div className="flex md:flex-col justify-center items-center">
-					<h4 className="text-sm font-light opacity-60 mr-2">Redes: </h4>
+					<h4 className="text-sm font-light opacity-60 mr-2">Check me out:</h4>
 					<span className="flex gap-2">
 						<a
 							href="https://www.linkedin.com/in/facundo-scienza/"
