@@ -8,7 +8,7 @@ const Projects = () => {
 	return (
 		<div
 			id="Projects"
-			className="pt-20 mb-20 flex flex-wrap md:flex-nowrap justify-center items-center gap-4 w-11/12 "
+			className="pt-20 mb-20 flex flex-wrap lg:flex-nowrap justify-center items-center gap-4 w-11/12 "
 		>
 			<div
 				className={`bg-slate-500/10 w-72 h-40 md:h-80 rounded-lg flex justify-around items-center pt-10 md:pt-40 pr-4 hover:bg-slate-500/20 hover:text-cyan-500 transition duration-500 ease-in-out shadow-none hover:shadow-xl hover:shadow-cyan-500/5`}

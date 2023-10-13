@@ -1,9 +1,7 @@
 const Greeting = () => {
 	return (
-		<div
-			className="flex flex-col w-screen p-8 pt-8 pb-8 mb-12 items-center justify-evenly bg-slate-900/20 rounded-lg md:w-11/12 md:flex-row"
-		>
-			<div className="h-96 md:w-1/2 max-w-xs flex flex-col justify-end md:justify-center ">
+		<div className="flex flex-col w-screen p-8 pt-8 pb-8 mb-12 items-center justify-evenly bg-slate-900/20 rounded-lg lg:w-11/12 lg:flex-row">
+			<div className="h-96 w-11/12 lg:w-1/2 p-4 flex flex-col justify-end lg:justify-center ">
 				<div className="w-1/3 border-t-2 border-cyan-500"></div>
 				<h1 className="text-2xl font-bold mb-2 tracking-widest">About me</h1>
 				<p>
@@ -15,7 +13,7 @@ const Greeting = () => {
 					through online resources such as YouTube
 				</p>
 			</div>
-			<div className="relative h-96 md:w-1/2 max-w-xs flex flex-col md:justify-center">
+			<div className="relative w-11/12  h-96 lg:w-1/2 p-4 flex flex-col lg:justify-center">
 				<p>
 					courses and official documentation. Later on, I enrolled in courses on
 					platforms like Platzi, Coderhouse, and Udemy, always complementing my
@@ -23,7 +21,7 @@ const Greeting = () => {
 					myself a great team player, driven by curiosity, and a dedicated
 					self-learner.
 				</p>
-				<div className="absolute right-0 flex items-center bottom-12">
+				<div className="absolute right-2 flex items-center bottom-12">
 					<span className="text-6xl font-black text-cyan-500">28</span>
 					<div className="flex flex-col justify-start text-justify font-bold ml-2 border-b-2 border-cyan-500">
 						<span>Years</span>
