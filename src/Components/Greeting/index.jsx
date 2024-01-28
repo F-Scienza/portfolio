@@ -16,12 +16,12 @@ const Greeting = () => {
 			<div className="relative w-11/12 max-w-md h-96 lg:w-1/2 pl-4 pr-4 flex flex-col lg:justify-center">
 				<p className="text-lg font-light">
 					courses and official documentation. Later on, I enrolled in courses on
-					platforms like Platzi, Coderhouse, and Udemy, always complementing my
+					platforms like Platzi, Coderhouse and Udemy, always complementing my
 					learning with hands-on projects to apply my knowledge. I consider
 					myself a great team player, driven by curiosity, and a dedicated
 					self-learner.
 				</p>
-				<div className="absolute right-2 flex items-center bottom-12">
+				<div className="absolute right-2 flex items-center bottom-36 lg:bottom-12">
 					<span className="text-6xl font-black text-cyan-500">28</span>
 					<div className="flex flex-col justify-start text-justify font-bold ml-2 border-b-2 border-cyan-500">
 						<span>Years</span>

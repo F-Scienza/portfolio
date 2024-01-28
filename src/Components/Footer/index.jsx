@@ -6,7 +6,7 @@ const Footer = () => {
 		'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-cyan-500/20 dark:from-cyan-500/5 via-slate-900/10 to-gray-800/0';
 	return (
 		<div
-			className={`flex flex-col justify-center items-center w-11/12 ${bg_gradient} pt-20 pb-16`}
+			className={`flex flex-col justify-center items-center w-11/12 ${bg_gradient} pt-16 pb-16`}
 		>
 			<Logo />
 			<div className="flex flex-col justify-center items-center p-10">
