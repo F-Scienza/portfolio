@@ -6,7 +6,7 @@ import {
 } from '@heroicons/react/24/outline';
 const Projects = () => {
 	return (
-		<div id="Projects" className="pt-20 mb-20 flex flex-col items-center w-11/12 mb-16">
+		<div id="Projects" className="pt-20 flex flex-col items-center w-11/12 mb-16">
 			<span className="border-t-4 dark:border-t-2 border-cyan-500 w-48 h-4"></span>
 			<span className="text-2xl md:text-4xl font-semibold mb-8 tracking-widest ">
 				Some projects
