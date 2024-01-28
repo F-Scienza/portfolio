@@ -20,11 +20,11 @@ const Tecnologies = () => {
 			id={'Tecnologies'}
 			className="flex flex-col items-center w-screen md:pb-20 md:w-11/12 md:pt-20 "
 		>
-			<span className="border-t-2 border-cyan-500 w-48 h-4"></span>
+			<span className="border-t-4 dark:border-t-2 border-cyan-500 w-48 h-4"></span>
 			<span className="text-2xl md:text-4xl font-semibold mb-8 tracking-widest ">
 				My knowledge
 			</span>
-			<div className="flex flex-wrap justify-center mb-16 gap-8">
+			<div className="flex flex-wrap justify-center mb-20 gap-8">
 				<div className="h-24 w-24 md:h-36 md:w-36 rounded-lg transition duration-300 ease-in-out ">
 					<span className="flex flex-col justify-center items-center font-semibold text-sm text-center">
 						<img className="w-32" src={html5img} alt="html" />
@@ -50,69 +50,69 @@ const Tecnologies = () => {
 					</span>
 				</div>
 			</div>
-			<div className="flex flex-wrap lg:flex-nowrap md:w-1/2 gap-8 justify-center">
+			<div className="flex flex-wrap lg:flex-nowrap mb-8 md:w-1/2 gap-8 justify-center">
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-sm opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className=" w-8 mb-2" src={gitlogo} alt="react" />
 						<p>Git</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-sm opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={ghlogo} alt="react" />
 						<p>Github</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-sm opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={nodeLogo} alt="react" />
 						<p>Nodejs</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-sm opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={nextjslogo} alt="react" />
 						<p>Nextjs</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-sm opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={tsLogo} alt="react" />
 						<p>Typescript</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={firebaselogo} alt="react" />
 						<p>Firebase</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={tailwindlogo} alt="react" />
 						<p>Tailwind</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={boostraplogo} alt="react" />
 						<p>Bootstrap</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={apilogo} alt="react" />
 						<p>RestApi</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={testing} alt="react" />
 						<p>Testing</p>
 					</span>
 				</div>
 				<div>
-					<span className="w-12 h-16 flex flex-col justify-center items-center font-light text-center text-xs opacity-40 transition duration-300 ease-in-out  hover:opacity-100">
+					<span className="w-12 h-16 flex flex-col justify-center items-center text-center text-xs opacity-50 transition duration-300 ease-in-out  hover:opacity-100">
 						<img className="w-8 mb-2" src={mailer} alt="react" />
 						<p>Mailjs</p>
 					</span>

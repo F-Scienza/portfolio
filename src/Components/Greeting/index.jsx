@@ -1,10 +1,10 @@
 const Greeting = () => {
 	return (
-		<div className="flex flex-col w-screen p-8 pt-8 pb-8 mb-12 items-center justify-evenly bg-slate-900/20 rounded-lg lg:w-11/12 lg:flex-row">
+		<div className="flex flex-col w-screen md:p-8 pt-8 pb-8 mb-12 items-center justify-evenly dark:bg-slate-900/20 bg-slate-200 rounded-lg lg:w-11/12 lg:flex-row">
 			<div className="h-96 w-11/12 max-w-md lg:w-1/2 pl-4 pr-4 flex flex-col justify-end lg:justify-center ">
 				<div className="w-1/3 border-t-2 border-cyan-500"></div>
 				<h1 className="text-2xl font-bold mb-2 tracking-widest">About me</h1>
-				<p>
+				<p className="text-lg font-light">
 					I am Facundo Scienza, Senior Mechatronics Technician. I am from
 					Cordoba Argentina. I am currently a production leader at Mementica.
 					Since 2020 I have used my free time to learn web development as a
@@ -14,7 +14,7 @@ const Greeting = () => {
 				</p>
 			</div>
 			<div className="relative w-11/12 max-w-md h-96 lg:w-1/2 pl-4 pr-4 flex flex-col lg:justify-center">
-				<p>
+				<p className="text-lg font-light">
 					courses and official documentation. Later on, I enrolled in courses on
 					platforms like Platzi, Coderhouse, and Udemy, always complementing my
 					learning with hands-on projects to apply my knowledge. I consider
